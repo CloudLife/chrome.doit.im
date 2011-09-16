@@ -1,0 +1,23 @@
+{
+  "name": "Doit.im",
+  "version": "1.4",
+  "description": "Here comes the extension of Doit.im, which adopts GTD to make your life perfectly organized.",
+  "browser_action": {
+    "default_icon": "imgs/icon.png",
+    "default_title": "Doit.im",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "https://*.doit.im/",
+    "http://*.doit.im/"
+  ],
+  "options_page": "options.html",
+  "popup": "popup.html",
+  "background_page": "background.html",
+  "icons": { "16": "imgs/icon16.png",
+             "48": "imgs/icon48.png",
+            "128": "imgs/icon128.png" },
+    "default_locale": "en"
+}

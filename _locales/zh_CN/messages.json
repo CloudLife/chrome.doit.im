@@ -1,0 +1,116 @@
+{
+    "Doitim": {
+        "message": "Doit.im"
+    },
+    "Add": {
+        "message": "添加"
+    },
+    "Processing": {
+        "message": "处理中..."
+    },
+    "Uncompleted": {
+        "message": "未完成"
+    },
+    "Completed": {
+        "message": "已完成"
+    },
+    "Inbox": {
+        "message": "收集箱"
+    },
+    "Overdue_and_Today": {
+        "message": "今日"
+    },
+    "Scheduled": {
+        "message": "日程"
+    },
+    "Someday": {
+        "message": "择日待办"
+    },
+    "Today": {
+        "message": "今天"
+    },
+    "Yesterday": {
+        "message": "昨天"
+    },
+    "Earlier": {
+        "message": "之前"
+    },
+    "OK": {
+        "message": "确定"
+    },
+    "Cancel": {
+        "message": "取消"
+    },
+    "Tomorrow": {
+        "message": "明日"
+    },
+    "Warning": {
+        "message": "提示"
+    },
+    "ARE_YOU_SURE_TO_DELETE_THE_TASK": {
+        "message": "确认删除？"
+    },
+    "TASK_VALI_TITLE_REQUIRED": {
+        "message": "标题必填"
+    },
+    "TASK_VALI_TITLE_TOO_LONG": {
+        "message": "标题限255字以内"
+    },
+    "TASK_VALI_PROJECT_TOO_LONG": {
+        "message": "项目名限30字以内"
+    },
+    "smart_add_shortcuts": {
+        "message": "智能添加快捷键"
+    },
+    "Close": {
+        "message": "关闭"
+    },
+    "Project": {
+        "message": "项目"
+    },
+    "Date": {
+        "message": "日期"
+    },
+    "Success": {
+        "message": "操作成功"
+    },
+    "Error": {
+        "message": "出错鸟～～"
+    },
+    "Failure": {
+        "message": "操作失败"
+    },
+    "go_to_options_to_login_left": {
+        "message": "请速速前往"
+    },
+    "go_to_options_to_login": {
+        "message": "设置页面"
+    },
+    "go_to_options_to_login_right": {
+        "message": "登录"
+    },
+    "option_sign_up_a_new_account_in_Doitim": {
+        "message": "注册新账号"
+    },
+    "option_login_in_Doitim": {
+        "message": "前往Doit.im登录"
+    },
+    "option_dont_close_the_tab_on_logging_in": {
+        "message": "（登录时请不要关闭本标签）"
+    },
+    "option_logout": {
+        "message": "登出"
+    },
+    "background_add_select_text_left": {
+        "message": "添加任务“"
+    },
+    "background_add_select_text_right": {
+        "message": "”到Doit.im"
+    },
+    "background_add_link": {
+        "message": "将该链接加为Doit.im的任务"
+    },
+    "background_add_page_url": {
+        "message": "将本页地址加为Doit.im的任务"
+    }
+}

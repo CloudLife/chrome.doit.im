@@ -1,0 +1,116 @@
+{
+    "Doitim": {
+        "message": "Doit.im"
+    },
+    "Add": {
+        "message": "Add"
+    },
+    "Processing": {
+        "message": "Processing.."
+    },
+    "Uncompleted": {
+        "message": "Uncompleted"
+    },
+    "Completed": {
+        "message": "Completed"
+    },
+    "Inbox": {
+        "message": "Inbox"
+    },
+    "Overdue_and_Today": {
+        "message": "Today"
+    },
+    "Scheduled": {
+        "message": "Scheduled"
+    },
+    "Someday": {
+        "message": "Someday"
+    },
+    "Today": {
+        "message": "Today"
+    },
+    "Yesterday": {
+        "message": "Yesterday"
+    },
+    "Earlier": {
+        "message": "Earlier"
+    },
+    "OK": {
+        "message": "OK"
+    },
+    "Cancel": {
+        "message": "Cancel"
+    },
+    "Tomorrow": {
+        "message": "Tomorrow"
+    },
+    "Warning": {
+        "message": "Warning"
+    },
+    "ARE_YOU_SURE_TO_DELETE_THE_TASK": {
+        "message": "Are you sure to delete the task?"
+    },
+    "TASK_VALI_TITLE_REQUIRED": {
+        "message": "Title Required"
+    },
+    "TASK_VALI_TITLE_TOO_LONG": {
+        "message": "255 or fewer characters for Title"
+    },
+    "TASK_VALI_PROJECT_TOO_LONG": {
+        "message": "30 or fewer characters for Project name"
+    },
+    "smart_add_shortcuts": {
+        "message": "Smart add shortcuts"
+    },
+    "Close": {
+        "message": "Close"
+    },
+    "Project": {
+        "message": "Project"
+    },
+    "Date": {
+        "message": "Date"
+    },
+    "Success": {
+        "message": "Success"
+    },
+    "Error": {
+        "message": "Error"
+    },
+    "Failure": {
+        "message": "Failure"
+    },
+    "go_to_options_to_login_left": {
+        "message": "Go to "
+    },
+    "go_to_options_to_login": {
+        "message": "Options"
+    },
+    "go_to_options_to_login_right": {
+        "message": " to login"
+    },
+    "option_sign_up_a_new_account_in_Doitim": {
+        "message": "Create an account"
+    },
+    "option_login_in_Doitim": {
+        "message": "Login in Doit.im"
+    },
+    "option_dont_close_the_tab_on_logging_in": {
+        "message": "(Don’t close the tab on logging in)"
+    },
+    "option_logout": {
+        "message": "Logout"
+    },
+    "background_add_select_text_left": {
+        "message": "Add the task '"
+    },
+    "background_add_select_text_right": {
+        "message": "' in Doit.im"
+    },
+    "background_add_link": {
+        "message": "Add the link as a task in Doit.im"
+    },
+    "background_add_page_url": {
+        "message": "Add the page url as a task in Doit.im"
+    }
+}

@@ -1,0 +1,61 @@
+html{
+    background: url("../imgs/option-bg.png") repeat-x scroll 0 0 transparent;
+}
+#wrap{
+    width:650px;
+    margin:0 auto;
+    text-align:center;
+    }
+#header{
+    height:110px;
+}
+#body{
+    background-color:#fff;
+    min-height:300px;
+    padding:50px 0 20px 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+#body>div{
+    margin:25px 0;
+}
+#login_tip{
+    margin-top: 20px;
+    color: #888;
+}
+#body a {
+    color:#2F4A60;
+    text-decoration:none;
+}
+#body a:hover {
+    text-decoration:underline;
+}
+em{
+    font-weight:bold;
+}
+#option_logo{
+    padding-top:40px;
+}
+#body #register_wrap{
+    margin-top: 15px;
+}
+#body a#auth_login{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1976A2;
+    padding: 10px 10px;
+    margin: 0 3px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86;
+    box-shadow: 0 1px 0 #4793DA inset, 0 1px 0 #0D4E86;
+    border: 1px solid #054388;
+    text-decoration: none;
+}
+
+#body a#auth_login:active{
+    -webkit-box-shadow: 0 1px 4px #094685 inset, 0 1px 0 #598EB8;
+    box-shadow: 0 1px 4px #094685 inset, 0 1px 0 #598EB8;
+    background: -webkit-linear-gradient(center top , #0C69CC, #0A57B8) repeat scroll 0 0 transparent;
+}

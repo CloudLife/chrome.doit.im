@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Doit.im | Online Task and Time Management System, Always Online, Always With You !</title>
+<meta name="keywords" content="Doit.im, GTD, time management, task management, What's GTD, GTD app, GTD software, GTD mobile, GTD download, GTD Android, GTD iPhone, GTD Web, GTD iPad, GTD PC, GTD Windows, GTD Linux, GTD Mac" />
+<meta name="description" content="Doit.im adopts the excellent task management principles GTD to guide you to get rid of various pending ideas in mind, help you organize tasks and focus on important items, so as to closely track work and feel easy when facing up bulks of complicated projects. With no pressure but efficiency, you'll better enjoy your work and get unexpected success." />
+<link rel="stylesheet" href="css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/options.css" type="text/css" />
+<script src="js/jquery.min.js">
+</script>
+<script src="/js/date.js" type="text/javascript"></script>
+<script src="js/doit.js" type="text/javascript"></script>
+<script src="js/options.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var L = chrome.i18n.getMessage;
+    $(document).ready(function() {
+        $('#register').text(L('option_sign_up_a_new_account_in_Doitim'));
+        $('#auth_login').text(L('option_login_in_Doitim'));
+        $('#login_tip').text(L('option_dont_close_the_tab_on_logging_in'));
+        $('#auth_logout').text(L('option_logout'));
+    });
+</script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="option_logo">
+                <a href="http://doit.im"><img src="../imgs/option-logo.png" /></a>
+            </div>
+        </div>
+        <div id="body">
+            <div id="register_wrap">
+                <a id="register" target="_blank" href="https://i.doit.im/register">前往&nbsp;Doit.im&nbsp;注册一个新帐号</a>
+            </div>
+            <div>
+                <a id="auth_login" href="#">前往&nbsp;Doit.im&nbsp;登录</a>
+                <div id="login_tip">（登录时不要关闭本标签）</div>
+            </div>
+            <div>
+                <a id="auth_logout" href="#">已登录，退出</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

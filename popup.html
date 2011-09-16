@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Doit.im | Online Task and Time Management System, Always Online, Always With You !</title>
+<meta name="keywords" content="Doit.im, GTD, time management, task management, What's GTD, GTD app, GTD software, GTD mobile, GTD download, GTD Android, GTD iPhone, GTD Web, GTD iPad, GTD PC, GTD Windows, GTD Linux, GTD Mac" />
+<meta name="description" content="Doit.im adopts the excellent task management principles GTD to guide you to get rid of various pending ideas in mind, help you organize tasks and focus on important items, so as to closely track work and feel easy when facing up bulks of complicated projects. With no pressure but efficiency, you'll better enjoy your work and get unexpected success." />
+<link rel="stylesheet" href="css/base.css" type="text/css" />
+<link rel="stylesheet" href="css/doit.css" type="text/css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/date.js" type="text/javascript"></script>
+<script src="js/jquery-ui-drag.js" type="text/javascript"></script>
+<script src="js/jquery.smart_add.js"></script>
+<script src="js/doit.js" type="text/javascript"></script>
+<script src="js/js.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <div id="logo">
+        <h1>Doit.im</h1>
+    </div>
+    <div id="task_add" class="clearfix">
+        <div>
+            <ul>
+                <li id="task_add_help"><a href="#" title="怎样输入">?</a></li>
+                <li id="task_add_input_wrap"><input type="text" name="" /></li>
+                <li id="task_add_button_wrap" class="clearfix"><button>Add</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="message_wrap">
+        <div id="message">
+            <p id="message_text">Processing..</p>
+        </div>
+    </div>
+    <div id="tasks_list_tab_wrap">
+        <ul id="tasks_list_tab" class="clearfix">
+            <li class="left tab-unfinished">
+                <div class="highlight">Uncompleted</div>
+            </li>
+            <li class="left tab-finished">
+                <div>Completed</div>
+            </li>
+        </ul>
+    </div>
+    <div id="tasks_list">
+        <ul id="unfinished_tasks">
+            <li>
+                <div class="task-type-wrap type-close type-inbox clearfix">
+                    <div class="task-type"><div class="task-type-text left">Inbox</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="task-type-wrap type-open type-overdue-today clearfix">
+                    <div class="task-type"><div class="task-type-text left">Overdue and Today</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="task-type-wrap type-close type-scheduled clearfix">
+                    <div class="task-type"><div class="task-type-text left">Scheduled</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="task-type-wrap type-close type-someday clearfix">
+                    <div class="task-type"><div class="task-type-text left">Someday</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                    
+                </div>
+            </li>
+        </ul>
+        <ul id="finished_tasks">
+            <li>
+                <div class="task-type-wrap type-open type-today-finish clearfix">
+                    <div class="task-type"><div class="task-type-text left">今日</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="task-type-wrap type-open type-yesterday-finish clearfix">
+                    <div class="task-type"><div class="task-type-text left">昨日</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                     
+                </div>
+            </li>
+            <li>
+                <div class="task-type-wrap type-open type-earlier-finish clearfix">
+                    <div class="task-type"><div class="task-type-text left">之前</div><div class="task-type-flag-wrap left"><div class="task-type-flag left"></div></div></div> 
+                </div>
+                <div class="task-article">
+                     
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="footer">
+        <div class="copyright">
+            ©2011&nbsp;Snoworange.com&nbsp;All Rights Reserved
+        </div>
+    </div>
+</div>
+<div id="please_login"><span id="go_to_option_left">请速速前往</span><a href="#" id="go_to_option">设置页面</a><span id="go_to_option_right">登录！</span></div>
+<div id="msg_box_wrap">
+    <div id="msg_box">
+        <div id="msg_box_title">
+            <div id="msg_box_title_text">标题</div>
+            <div id="msg_box_button_close">×</div>
+        </div>
+        <div id="msg_box_content">
+            <div id="msg_box_content_text">确定删除？</div>
+        </div>
+        <div id="msg_box_button_list">
+            <button id="msg_box_button_ok">确定</button>
+            <button id="msg_box_button_cancel">取消</button>
+        </div> 
+    </div>
+    <div id="shadow_div"></div>
+</div>
+<div id="smart_add_help">
+    <div id="smart_add_help_title">
+        <div id="smart_add_help_title_text">Smart Add Shortcuts</div>
+        <div id="smart_add_help_close">关闭</div>
+    </div>
+    <br />
+    #&nbsp;<span id="smart_add_project">Project</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^&nbsp;<span id="smart_add_date">Date</span><br />
+</div>
+</body>
+</html>
